@@ -1,0 +1,53 @@
+.wellcomeb{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn{
+    background-color: blueviolet !important;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(96, 49, 141) !important;
+    color: white;
+}
+
+
+.newuser a{
+
+    text-decoration: none;
+}
+
+.form-check a{
+    text-decoration: none;
+    color: rgb(62, 59, 55);
+    margin-left: 50%;
+
+}
+
+@media only screen and (max-width: 760px) {
+    .form-check a{
+        text-decoration: none;
+        color: rgb(62, 59, 55);
+        margin-left: 10%;
+    
+    }
+
+}
+@media only screen and (max-width: 1231px) {
+    .form-check a{
+        text-decoration: none;
+        color: rgb(62, 59, 55);
+        margin-left: 37%;
+    
+    }
+
+}
